@@ -1,0 +1,27 @@
+# Ignore all class files
+*.class
+*.py
+
+# Ignore compiled Java binaries
+*.jar
+*.war
+*.ear
+
+# Ignore IDE and build tool files
+/.idea/
+/.vscode/
+/.gradle/
+/.mvn/
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Allow only .java files
+!*.java
