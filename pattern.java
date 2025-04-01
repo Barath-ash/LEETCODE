@@ -9,7 +9,7 @@ class pattern{
                 value =1;
             }
             for(int j=0;j<i;j++){
-                System.out.print(value);
+                System.out.print(value+" ");
             }
             System.out.println();
         }
