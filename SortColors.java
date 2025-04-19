@@ -4,7 +4,7 @@ class sortColors{
     public static void main(String[] args) {
         int[]  nums = {2,0,1};
         int c0=0,c1=0,c2=0;
-        // sort the value based on the sorting order with duplicates
+        // sort the value based on the sorting order with duplicate
         for(int i=0;i<nums.length;i++){
             if(nums[i]==1){
                 c0++;
