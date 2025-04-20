@@ -1,4 +1,4 @@
-public class KadanesAlgo {
+public class KadanesAlgoBrute {
     public static void main(String[] args) {
         int arr[] = {1,2,-9,-7,9,7};
 
