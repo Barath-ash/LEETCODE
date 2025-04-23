@@ -1,3 +1,4 @@
+
 class Solution {
     public List<Integer> majorityElement(int[] nums) {
         List<Integer> value = new ArrayList<>();
