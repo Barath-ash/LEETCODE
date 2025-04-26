@@ -1,4 +1,4 @@
-public class Deloitte2 {
+public class Deloitte2_Easy {
     public static void main(String[] args) {
         int num[] = {10,45,6};
         int result =0;
