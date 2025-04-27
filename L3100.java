@@ -1,6 +1,6 @@
 class L3100{
     public static void main(String[] args) {
-       String s = "hello";
+       String s = "zaz";
        int sum =0;
        int prev=0;
        for(int i=0;i<s.length();i++){
