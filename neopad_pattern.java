@@ -1,6 +1,6 @@
 class NeopadPattern {
     public static void main(String[] args) {
-        int n = 10;
+        int n = 13;
         
         // Upper half
         for (int i = n; i >= 0; i--) {
@@ -8,12 +8,12 @@ class NeopadPattern {
                 if (j >= i) {
                     System.out.print(j);
                     if (j < 10) {
-                        System.out.print("  "); // one number + two spaces if 0-9
+                        System.out.print("  "); 
                     } else {
-                        System.out.print(" ");  // number 10 needs one space
+                        System.out.print(" ");  
                     }
                 } else {
-                    System.out.print("   "); // empty space (three spaces)
+                    System.out.print("   ");  
                 }
             }
             System.out.println();
