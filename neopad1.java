@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class neopad1 {
     public static void main(String[] args) {
-        String s = "Welcome123tomy234country34";
+        String s = "Welcome1223tomy234country34";
         int max =0;
         s= s.toLowerCase();
         String[] arr = s.split("[a-z]+");
