@@ -7,21 +7,21 @@ public class floatmin {
         int sum=0;
         int i=0,j=nums.length;
         int len = nums.length;
-        float result =0;
+        float result = Float.MAX_VALUE;
 
         for(int k=0;k<nums.length;k++){
             sum+=nums[k];
         }
 
         while(i<j){
-            float calc = sum/len;
+            float calc = (float)sum/len;
             if(result==0){
                 result = sum;
             }
             else if(calc<result){
                 result = calc;
             }
-            sum -= nums[i]+nums[j];
+            sum -= nums[i]+nums[j-1];
             len -=2;
             i++;
             j--;
