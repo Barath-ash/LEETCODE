@@ -15,8 +15,9 @@ class sumofchar{
         }
         for(int i=0;i<k;i++){
             for(char c: str.toString().toCharArray()){
-               
+               sum+= c-'0';
             }
+            str = new StringBuilder(String.valueOf(sum));
         }
          
              
