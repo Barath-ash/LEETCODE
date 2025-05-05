@@ -1,7 +1,6 @@
 # Ignore all class files
 *.class
 *.py
-*.java
 
 # Ignore compiled Java binaries
 *.jar
