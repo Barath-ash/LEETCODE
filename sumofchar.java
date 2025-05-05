@@ -1,7 +1,7 @@
 class sumofchar{
     public static void main(String[] args) {
-        String s = "iiii";
-        int k = 1;
+        String s = "leetcode";
+        int k = 2;
         System.out.println(getLucky(s, k));
     }
 
@@ -14,6 +14,7 @@ class sumofchar{
               str.append(val);
         }
         for(int i=0;i<k;i++){
+            sum =0;
             for(char c: str.toString().toCharArray()){
                sum+= c-'0';
             }
