@@ -1,6 +1,6 @@
 public class KadanesAlgoBrute {
     public static void main(String[] args) {
-        int arr[] = {1,2,-9,-7,9,7};
+        int arr[] = {-2,1,-3,4,-1,2,1,-5,4};
 
     int max =arr[0];
     int curr = arr[0];

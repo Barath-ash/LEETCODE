@@ -1,6 +1,6 @@
 public class xandycompromises {
     public static void main(String[] args) {
-        String s = "XYXXXYXXYY";
+        String s = "XYXXYXXXYXXYYYYXX";
         s = s.toUpperCase();
         int count =0;
         char first = s.charAt(0);
