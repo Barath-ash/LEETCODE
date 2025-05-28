@@ -14,7 +14,7 @@ public class digitsubstring {
                 }
                 int end = i-1;
 
-                if(end<n-1 && start>=0 && Character.isLowerCase(s.charAt(start-1))&& Character.isLowerCase(s.charAt(end+1))){
+                if(end<n-1 && start>0 && Character.isLowerCase(s.charAt(start-1))&& Character.isLowerCase(s.charAt(end+1))){
                     count++;
                 }
 
