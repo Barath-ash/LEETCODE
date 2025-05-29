@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Random Word</title>
+</head>
+<body>
+  <div id="random-word"></div>
+
+  <script>
+    // Your array of words
+    const arr = ['a', 'b', 'c', 'd'];
+
+    // Get a random index
+    const randomIndex = Math.floor(Math.random() * arr.length);
+
+    // Get the random word
+    const randomWord = arr[randomIndex];
+
+    // Display the word in the div
+    document.getElementById('random-word').textContent = randomWord;
+  </script>
+</body>
+</html>
